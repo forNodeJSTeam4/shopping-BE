@@ -11,6 +11,7 @@ indexRouter.use('/product', productRouter)
 indexRouter.use('/cart', cartRouter)
 indexRouter.use('/order', orderRouter)
 indexRouter.use('/movie', movieRouter)
+indexRouter.use('/review', reviewRouter)
 
 
 module.exports = indexRouter;
